@@ -1,0 +1,34 @@
+@import './colors.scss';
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+  color: $ordinary-text-color;
+}
+
+.app {
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+}
+
+button {
+  border: none;
+  background-color: $primary-color;
+
+  &._flat {
+    background-color: transparent;
+  }
+}
+
+._error {
+  color: $negative-color;
+  font-size: 13px;
+  text-align: center;
+  margin-top: 10px;
+}
