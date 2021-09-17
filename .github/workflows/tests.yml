@@ -95,6 +95,8 @@ jobs:
       run: set -eu && git clone https://github.com/Yandex-Practicum/tests-second-floor.git
     - name: PNPM version
       run: pnpm -v
+    - name: NPM version
+      run: npm -v
     - name: Run the tests
       run: bash tests-second-floor/sprint_3/run.sh
       
